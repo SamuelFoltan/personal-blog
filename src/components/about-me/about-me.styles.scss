@@ -1,0 +1,48 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.subHeader {
+  color: #E1C16E;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.sectionHeader {
+  color: #E1C16E;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.valueList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.valueItem {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .subHeader {
+    font-size: 20px;
+  }
+  .sectionHeader {
+    font-size: 18px;
+  }
+}

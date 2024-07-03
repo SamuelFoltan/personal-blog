@@ -1,0 +1,63 @@
+.publication-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .form-group {
+      margin-bottom: 15px;
+
+      label {
+        font-size: 1.2rem;
+        color: #555;
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type='text'],
+      input[type='file'] {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        transition: border-color 0.3s ease;
+
+        &:focus {
+          outline: none;
+          border-color: #86b7fe;
+        }
+      }
+
+      button {
+        padding: 12px 20px;
+        font-size: 1.2rem;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+}

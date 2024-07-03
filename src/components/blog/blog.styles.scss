@@ -1,0 +1,117 @@
+.toggle-form-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.toggle-form-button:hover {
+  background-color: #0056b3;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+  width: 100%;
+  max-width: 1200px; 
+  padding: 0 20px; 
+}
+
+.post {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  width: 100%; 
+  max-width: 48%; 
+  box-sizing: border-box; 
+}
+
+.post.expanded {
+  max-width: 60%; 
+  margin: 0 auto; 
+  clear: both; 
+}
+
+.files-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.file-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-image,
+.file-video {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+  max-height: 300px; 
+}
+
+form-container textarea {
+  height: 200px; 
+}
+
+.toggle-form-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.toggle-form-button:hover {
+  background-color: #0056b3;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 100%;
+  max-width: 600px;
+}
